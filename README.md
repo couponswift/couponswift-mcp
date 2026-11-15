@@ -1,6 +1,6 @@
 # CouponSwift MCP server: deals and promo codes for software, hosting, VPN, proxy and AI tools
 
-A hosted (remote) [Model Context Protocol](https://modelcontextprotocol.io) server for CouponSwift (https://www.couponswift.com), a site that lists deals and promo codes for software, hosting, VPN, proxy and AI tools. It has one read-only tool that finds a store by name, slug or domain and returns a link to its CouponSwift page together with a short summary of the current offers. The codes themselves are shown on the store page on the website, not in the tool response.
+A hosted (remote) [Model Context Protocol](https://modelcontextprotocol.io) server for CouponSwift (https://www.couponswift.com), a site that lists deals and promo codes for software, hosting, VPN, proxy and AI tools. It has one read-only tool that finds a store by name, slug or domain and returns a link to its CouponSwift page together with a short summary of the current offers.
 
 This repository contains documentation only. There is nothing to install or run.
 
@@ -178,13 +178,6 @@ Use [`mcp-remote`](https://github.com/geelen/mcp-remote) as a local bridge (requ
   }
 }
 ```
-
-## What it does not do
-
-- It does not return coupon codes. Codes are shown on the store page on the website.
-- It does not return affiliate links or tracking URLs. The only link it returns is the CouponSwift store page.
-- It does not expose offer details, expiry dates or history.
-- It has no tools that change anything.
 
 ## Limits
 
